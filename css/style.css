@@ -64,6 +64,10 @@ body {
 .active a {
     color: #010101;
 }
+.menu_item a:hover {
+    color: #1d1d1d;
+    transition-duration: .2s;
+}
 .logo {
     margin: 0 16px;
 }
@@ -105,6 +109,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto 206px;
+}
+.header__button:hover {
+    background-color: #1d1d1d;
+    cursor: pointer;
+    color: #fefefe;
 }
 
 /* ABOUT */
