@@ -1,0 +1,64 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "code": 62217,
+      "src": "entypo"
+    },
+    {
+      "uid": "0fbfb1cd7a847c88ea4c141d0e1bbdb5",
+      "css": "instagram",
+      "code": 62253,
+      "src": "entypo"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "a17986e457f3d85f26c9c240dfd6a4ba",
+      "css": "mail",
+      "code": 59393,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "location",
+      "code": 59394,
+      "src": "elusive"
+    },
+    {
+      "uid": "d02a803276d9e1f42b7393964aa22ce9",
+      "css": "heart",
+      "code": 59395,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "74ba7c7ac7610225ab8655f50ad179b6",
+      "css": "download-cloud",
+      "code": 61461,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "7184d8171b6a9b18eabbace94cca21db",
+      "css": "chart-line",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "ea2d9a8c51ca42b38ef0d2a07f16d9a7",
+      "css": "chart-line-1",
+      "code": 61953,
+      "src": "fontawesome"
+    }
+  ]
+}
