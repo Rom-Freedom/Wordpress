@@ -1,22 +1,22 @@
 @font-face {
     font-family: "HelveticaNeueLTProLt";
-    src: url("../fonts/HelveticaNeueLTProLt.otf") format("otf");
+    src: url("../fonts/HelveticaNeueLTProLt.otf") format("opentype");
 }
   @font-face {
     font-family: "HelveticaNeueLTProMd";
-    src: url("../fonts/HelveticaNeueLTProMd.otf") format("otf");
+    src: url("../fonts/HelveticaNeueLTProMd.otf") format("opentype");
 }
 @font-face {
     font-family: "HelveticaNeueLTProRoman";
-    src: url("../fonts/HelveticaNeueLTProRoman.otf") format("otf");
+    src: url("../fonts/HelveticaNeueLTProRoman.otf") format("truetype");
 }
 @font-face {
     font-family: "Merriweather-LightItalic";
-    src: url("../fonts/Merriweather-LightItalic.ttf") format("ttf");
+    src: url("../fonts/Merriweather-LightItalic.ttf") format("truetype");
 }
 @font-face {
     font-family: "Montserrat-Light";
-    src: url("../fonts/Montserrat-Light.ttf") format("ttf");
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: "Montserrat-Regular";
@@ -107,5 +107,48 @@ body {
     margin: 0 auto 206px;
 }
 
+/* ABOUT */
+.about { 
+    height: 1129px;
+    padding-top: 128px;
+    padding-bottom: 271px;
+    background: url(../img/buildings__black.png) center bottom repeat-x,
+                      url(../img/buildings__white.png) center bottom repeat-x,
+                      #1d1d1d;
+    /* background-size: contain, contain; */
+}
+.about__inner {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: max-content max-content;
+    grid-template-columns: max-content max-content;
+    gap: 178px;
+}
+.about__item {
+    background-color: #181818;
+    width: 417px;
+    height: 276px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about__year {
+    font-family: 'HelveticaNeuelLtPro', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    margin-bottom: 27px;
+}
+.about__text {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+    color: #b7b7b7;
+}
 
   
