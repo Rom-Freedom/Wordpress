@@ -298,10 +298,10 @@ body {
 /* CONTACTS */
 .contacts {
 }
-.block__head {
+.contacts .block__head .block__title {
+    padding-top: 95px;
 }
-.inverse {
-}
+
 .block__title {
 }
 .block__text {
@@ -309,34 +309,105 @@ body {
 .contact__inner {
 }
 .contact__icon-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-top: 64px;  
 }
 .contact__item {
+    text-align: center;
+    width: 130px;
 }
+.contact__item i {
+    color: #323232;
+    font-size: 21px;
+}
+
 .icon-phone {
 }
+
 .contact__text {
+    margin-bottom: 12px;
+}
+.contact__text a {
+    font-family: 'HelveticaNeuelLtPro', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact__text a:hover {
+    color: #474646;
+    text-decoration: underline;
 }
 .icon-location {
 }
 .icon-mail {
 }
+
 .contact__form {
+    padding-top: 153px;
+    display: flex;
+    flex-direction: column;
+    min-width: 770px;
+    margin: 0 auto;
 }
+.contact__form input {
+    height: 52px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'HelveticaNeuelLtPro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+}
+
 .contact__name {
+    margin-bottom: 20px;
 }
 .contact__email {
+    margin-bottom: 20px;
 }
 .contact__number {
+    margin-bottom: 20px;
 }
 .contact__textarea {
+    font-family: 'HelveticaNeuelLtPro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 26px;
+    color: #898888;
+    height: 195px;
+    resize: none;
+    padding: 22px;
+    margin-bottom: 18px;
 }
 .contact__button {
+    background-color: #161616;
+    font-family: 'HelveticaNeueLTPproMD', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    margin-bottom: 154px;
 }
 
 /* FOOTER */
 .footer {
+    margin-bottom: 29px;
 }
 .footer__text {
+    text-align: center;
+    font-family: 'HelveticaNeueLTPproMD', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3b3b3b;
 }
 
 
