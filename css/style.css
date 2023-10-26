@@ -428,6 +428,56 @@ input::-webkit-inner-spin-button {
 }
 
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 769px) {
+    .container {
+        width: 768px;
+    }
+    .header__title {
+        margin: 81px auto 4px;
+    }
+    .header__button {
+        margin: 0 auto 63px;
+    }
+    .about {
+       height: auto;
+       padding-bottom: 220px;
+    }
+    .about__inner {
+        gap: 30px;
+        grid-template-columns: max-content;
+    }
+    
+    .team {
+        height: 600px;
+    }
+    .team .block__title{
+        padding-top: 100px;
+    }
+    .provide__item {
+        text-align: center;
+        min-width: 250px;
+    }
+    .provide .block__title{
+        padding-top: 100px;
+    }
+
+    .contact__form {
+        padding-top: 50px;
+        min-width: 736px;
+    }
+    .contacts .block__head .block__title {
+        padding-top: 19px;
+    }
+    .contact__form .contact__button {
+        margin-bottom: 0px;
+    }
+    .footer {
+        padding-top: 10px;
+    }
+}
+
+
 
 
 
