@@ -375,6 +375,11 @@ body {
 .contact__number {
     margin-bottom: 20px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 .contact__textarea {
     font-family: 'HelveticaNeuelLtPro', sans-serif;
     font-size: 15px;
