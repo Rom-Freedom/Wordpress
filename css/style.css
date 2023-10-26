@@ -364,6 +364,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #898888;
+    border: 1px solid #999999;
 }
 
 .contact__name {
@@ -387,12 +388,18 @@ input::-webkit-inner-spin-button {
     letter-spacing: 0.02em;
     line-height: 26px;
     color: #898888;
+    border: 1px solid #999999;
     height: 195px;
     resize: none;
     padding: 22px;
-    margin-bottom: 18px;
+    margin-bottom: 18px;   
 }
-.contact__button {
+
+.contact__form .contact__button {
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    border: none;
     background-color: #161616;
     font-family: 'HelveticaNeueLTPproMD', sans-serif;
     font-size: 17px;
@@ -400,6 +407,11 @@ input::-webkit-inner-spin-button {
     letter-spacing: 0.02em;
     color: #fefefe;
     margin-bottom: 154px;
+    transition: 0.3s;
+}
+.contact__form .contact__button:hover {
+    background-color: #6f6060;
+    color: #ffffff;
 }
 
 /* FOOTER */
