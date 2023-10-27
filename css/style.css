@@ -63,6 +63,10 @@ body {
     margin-right: 0;
 }
 
+.menu__mobile {
+    display: none;
+}
+
 .active a {
     color: #010101;
 }
@@ -88,7 +92,8 @@ body {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #1d1e1f;
-    margin: 207px auto 4px;
+    padding-top: 207px;
+    margin: 0px auto 4px;
 }
 .header__text {
     font-family: "Merriweather-LightItalic", serif;
@@ -410,8 +415,8 @@ input::-webkit-inner-spin-button {
     transition: 0.3s;
 }
 .contact__form .contact__button:hover {
-    background-color: #6f6060;
-    color: #ffffff;
+    background-color: #605f5f;
+    color: #fefefe;
 }
 
 /* FOOTER */
@@ -474,6 +479,93 @@ input::-webkit-inner-spin-button {
     }
     .footer {
         padding-top: 10px;
+    }
+}
+
+/* media for IPhone */
+@media screen and (max-width: 376px) {
+    .container {
+        width: 375px;
+    }
+    .logo {
+        margin: 0 -15px;
+    }
+    .menu__desktop {
+        display: none;
+    }
+    .menu__mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu__desktop {
+        display: none;
+    }
+    .menu__burger {
+        cursor: pointer;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: relative;
+    }
+    .menu__burger:after {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        bottom: -10px;
+    }
+    .menu__burger:before {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: -10px;
+    }
+    .header__title {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    .about__item {
+        width: 340px;
+    }
+    .team__inner {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .team .block__title {
+        padding-top: 10px;
+    }
+    .team__item {
+        max-width: 340px;
+    }
+    .team__item-img {
+        width: 70px;
+        margin-bottom: 3px;
+    }
+    .provide__inner {
+        padding-top: 25px;
+        flex-wrap: wrap;
+        
+    }
+    .provide .block__title {
+        padding-top: 25px;
+    }
+    .provide__item i {
+        font-size: 40px;
+        width: 114px;
+        height: 114px;
+        margin-bottom: 5px;
+    }
+    .provide__item-title {
+        margin-bottom: 18px;
+    }
+    .contact__form {
+        padding-top: 50px;
+        min-width: 360px;
     }
 }
 
