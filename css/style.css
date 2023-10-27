@@ -490,10 +490,11 @@ input::-webkit-inner-spin-button {
     .logo {
         margin: 0 -15px;
     }
-    .menu__desktop {
+   
+    .menu {
         display: none;
     }
-    .menu__mobile {
+    .header .container .menu__mobile {
         display: flex;
         justify-content: space-between;
         align-items: center;
